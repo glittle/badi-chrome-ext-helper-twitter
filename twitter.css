@@ -1,0 +1,31 @@
+/* fire of God */
+/* air of eternity */
+/* water of Divine Unity */
+/* earth */
+.Wondrous {
+  display: inline-block;
+  margin: 0 5px;
+}
+.Wondrous:before {
+  content: "\00b7";
+}
+.Wondrous span {
+  margin: 0 5px;
+  padding: 0 3px 0 3px;
+  border-radius: 3px;
+}
+.Wondrous span.element1 {
+  background-color: #ffe6e6;
+}
+.Wondrous span.element2 {
+  background-color: #fafafa;
+}
+.Wondrous span.element3 {
+  background-color: #e8e8ff;
+}
+.Wondrous span.element4 {
+  background-color: #e6ffe6;
+}
+.client-and-actions .Wondrous:before {
+  content: "-";
+}

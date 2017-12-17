@@ -1,0 +1,33 @@
+﻿@import "colors.less";
+.Wondrous {
+    display: inline-block;
+    margin: 0 5px;
+    &:before {
+        content: "\00b7";
+    }
+    span {
+        margin: 0 5px;
+        padding: 0 3px 0 3px;
+        border-radius: 3px;
+        &.element1 {
+            background-color: @lightFire;
+        }
+        &.element2 {
+            background-color: @lightAir;
+        }
+        &.element3 {
+            background-color: @lightWater;
+        }
+        &.element4 {
+            background-color: @lightEarth;
+        }
+    }
+}
+
+.client-and-actions {
+    .Wondrous {
+        &:before {
+            content: "-";
+        }
+    }
+}
